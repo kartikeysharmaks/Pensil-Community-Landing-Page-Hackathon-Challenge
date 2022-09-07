@@ -1,0 +1,16 @@
+.window-peak {
+    background-image: url(/src//assets/Event1.jpeg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .window-peak {
+        min-height: 400px;
+        background-size: calc(400, 800);
+    }
+}

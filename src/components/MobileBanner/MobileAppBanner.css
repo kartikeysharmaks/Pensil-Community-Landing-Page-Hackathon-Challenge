@@ -1,0 +1,16 @@
+.mobile-app {
+    background-image: url(/src//assets/app-image.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-app {
+        min-height: 400px;
+        background-size: cover;
+    }
+}
