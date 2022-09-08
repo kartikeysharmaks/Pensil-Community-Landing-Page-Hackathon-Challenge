@@ -16,7 +16,7 @@ const CommunityBlogs = () => {
 
   return (
     <div className="sm:py-10 py-4 sm:px-6 flex flex-col">
-      <div className="flex items-center justify-center font-bold sm:text-6xl text-3xl text-blue-900 mt-5 mb-8">
+      <div className="flex items-center justify-center font-bold lg:text-6xl sm:text-4xl text-3xl text-blue-900 mt-5 mb-8">
         Community Blogs
       </div>
       <div className="grid xxl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 w-[85%] mx-auto">

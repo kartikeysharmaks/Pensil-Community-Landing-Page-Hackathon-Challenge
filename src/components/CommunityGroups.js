@@ -22,7 +22,7 @@ const CommunityGroups = () => {
       <div className="sm:text-6xl text-3xl text-center font-bold sm:p-6 p-4 text-blue-900">
         FullStack Developers Community
       </div>
-      <div className="w-[85%] sm:w-[60%] text-center font-normal text-gray-600 lg:text-3xl sm:text-2xl text:xl sm:p-6 p-2">
+      <div className="w-[85%] sm:w-[60%] text-center font-normal text-gray-600 lg:text-2xl sm:text-xl text:lg sm:p-6 p-2">
         Full-stack developers work as part of the larger software development
         community. Full-stack developers specialize in web development, but
         these same web technologies now power many apps that run on smartphones

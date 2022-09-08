@@ -9,15 +9,15 @@ const FAQSection = () => {
 
   return (
     <div className="w-full h-full bg-white pb-10 mb-5">
-      <div className="text-center sm:text-6xl text-3xl text-blue-900 font-bold sm:py-8 pt-10 pb-5">
+      <div className="text-center lg:text-6xl sm:text-4xl text-3xl text-blue-900 font-bold sm:py-8 pt-10 pb-5">
         Frequently Asked Questions
       </div>
-      <div className="lg:text-3xl sm:text-2xl text:xl sm:p-6 p-2 w-[85%] sm:w-[60%] text-center mx-auto font-normal text-gray-600">
+      <div className="lg:text-2xl sm:text-xl text:lg sm:p-6 p-2 w-[85%] sm:w-[60%] text-center mx-auto font-normal text-gray-600">
         Any question? Leave it here, we will help you out.
       </div>
       <div className="flex flex-col border-b-2 py-5 w-[80%] lg:w-[60%] mx-auto">
         <div className="flex items-center justify-between">
-          <div className="lg:text-2xl sm:text-xl text-lg text-gray-700">
+          <div className="lg:text-xl sm:text-lg text-base text-gray-700">
             Will i get access to all the missed video lectures and notes if i
             join now?
           </div>
@@ -35,14 +35,14 @@ const FAQSection = () => {
           </button>
         </div>
         {toggle1 && (
-          <div className="flex lg:text-2xl sm:text-xl text-lg text-gray-500 mt-4">
+          <div className="flex lg:text-xl sm:text-lg text-base text-gray-500 mt-4">
             Yes, you will get all the access.
           </div>
         )}
       </div>
       <div className="flex flex-col border-b-2 py-5 w-[80%] lg:w-[60%] mx-auto">
         <div className="flex items-center justify-between">
-          <div className="lg:text-2xl sm:text-xl text-lg text-gray-700">
+          <div className="lg:text-xl sm:text-lg text-base text-gray-700">
             Joining groups will require any subscription or it's free?
           </div>
           <button
@@ -59,14 +59,14 @@ const FAQSection = () => {
           </button>
         </div>
         {toggle2 && (
-          <div className="flex lg:text-2xl sm:text-xl text-lg text-gray-500 mt-4">
+          <div className="flex lg:text-xl sm:text-lg text-base text-gray-500 mt-4">
             It's totally free.
           </div>
         )}
       </div>
       <div className="flex flex-col border-b-2 py-5 w-[80%] lg:w-[60%] mx-auto">
         <div className="flex items-center justify-between">
-          <div className="lg:text-2xl sm:text-xl text-lg text-gray-700">
+          <div className="lg:text-xl sm:text-lg text-base text-gray-700">
             Can anyone number of people be able to access the content of same
             account?
           </div>
@@ -84,14 +84,14 @@ const FAQSection = () => {
           </button>
         </div>
         {toggle3 && (
-          <div className="flex lg:text-2xl sm:text-xl text-lg text-gray-500 mt-4">
+          <div className="flex lg:text-xl sm:text-lg text-base text-gray-500 mt-4">
             No, only two people can access content at a time.
           </div>
         )}
       </div>
       <div className="flex flex-col border-b-2 py-5 w-[80%] lg:w-[60%] mx-auto">
         <div className="flex items-center justify-between">
-          <div className="lg:text-2xl sm:text-xl text-lg text-gray-700">
+          <div className="lg:text-xl sm:text-lg text-base text-gray-700">
             Is there any subscription needed to join pensil community?
           </div>
           <button
@@ -108,7 +108,7 @@ const FAQSection = () => {
           </button>
         </div>
         {toggle4 && (
-          <div className="flex lg:text-2xl sm:text-xl text-lg text-gray-500 mt-4">
+          <div className="flex lg:text-xl sm:text-lg text-base text-gray-500 mt-4">
             Yes, there is a monthly subscription of 200 rupees.
           </div>
         )}

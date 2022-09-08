@@ -5,7 +5,7 @@ import FeedCard from "./FeedCard";
 const CommunityFeed = () => {
   return (
     <div className="flex flex-col items-center justify-start bg-gray-100 h-full w-full">
-      <div className="flex flex-row items-center sm:my-6 my-5 pt-8 sm:text-6xl text-3xl text-center font-bold sm:p-6 p-4 text-blue-900">
+      <div className="flex flex-row items-center sm:my-6 my-5 pt-8 lg:text-6xl sm:text-4xl text-3xl text-center font-bold sm:p-6 p-4 text-blue-900">
         Community Feed
       </div>
       <div className="sm:pt-[20px] sm:pb-50px px-[10px] py-[30px] rounded-2xl">

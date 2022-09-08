@@ -5,10 +5,10 @@ import CTACard from "./CTACard";
 const CTA = () => {
   return (
     <div className="flex flex-col items-center justify-evenly my-5 bg-transparent sm:pt-6 sm:py-4">
-      <div className="font-bold sm:text-6xl text-3xl text-center text-blue-900 flex items-center justify-center">
+      <div className="font-bold lg:text-6xl sm:text-4xl text-3xl text-center text-blue-900 flex items-center justify-center">
         Get in touch with Us
       </div>
-      <div className="lg:text-3xl sm:text-2xl text-xl text-center text-gray-600 w-[85%] lg:w-[60%] mx-auto sm:py-5 py-4 px-2 sm:mb-4 mb-1">
+      <div className="lg:text-2xl sm:text-xl text-lg text-center text-gray-600 w-[85%] lg:w-[60%] mx-auto sm:py-5 py-4 px-2 sm:mb-4 mb-1">
         Be a part of our community. Learn and grow with us. Also participate in the community fest. To get all updates follow us on instagram, facebook and all social media handles. 
       </div>
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 sm:m-auto sm:my-8 my-4 w-[85%]">

@@ -3,7 +3,7 @@ import React from "react";
 const Owner = () => {
   return (
     <div className="flex flex-col items-center justify-between bg-white">
-      <div className="font-bold lg:text-8xl italic sm:text-5xl text-4xl text-blue-900 text-center sm:py-8 pt-10 pb-5">
+      <div className="font-bold lg:text-6xl italic sm:text-4xl text-3xl text-blue-900 text-center sm:py-8 pt-10 pb-5">
         <span className="text-pink-500 ml-1">C</span>E
         <span className="text-pink-500 ml-1">O</span> of
         <span className="text-pink-500 ml-1"> P</span>E
@@ -18,7 +18,7 @@ const Owner = () => {
         />
       </div>
       <div className="mt-5">
-        <div className="text-center font-bold sm:text-4xl text-3xl pt-4 pb-2">
+        <div className="text-center font-bold sm:text-3xl text-3xl pt-4 pb-2">
           Hitesh Chaudhary
         </div>
         <div className="w-[80%] sm:w-[60%] mx-auto text-center font-normal text-gray-600 lg:text-2xl sm:text-xl text-lg pt-3 pb-8">

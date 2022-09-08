@@ -8,7 +8,7 @@ const FeedCard = ({description, imgSrc, title}) => {
             <div className='lg:text-2xl sm:text-xl text-lg font-semibold'>
                 {title}
             </div>
-            <div className='lg:text-2xl sm:text-xl text-lg opacity-80'>
+            <div className='lg:text-xl sm:text-lg text-base opacity-80'>
                 {description}
             </div>
         </div>
